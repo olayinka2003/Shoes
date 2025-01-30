@@ -63,7 +63,7 @@ function App() {
   }
 
   return (
-    <div className="p-10 xl:px-24 animate-fadeIn dark:bg-night">
+    <div className="lg:p-10 xl:px-24 animate-fadeIn dark:bg-night">
       <Nav onClickShoppingButton={() => setIsopen(true)} />
       <Shoe shoe={currentShoe} onAddToCart={addToCart}  />
       <New items={SHOE_LIST} onClick={setCurrentShoe}  />
